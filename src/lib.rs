@@ -45,7 +45,7 @@ pub fn vararg(attrs: TokenStream, input: TokenStream) -> TokenStream {
     let first_args: TokenStream2 = first_args.parse().unwrap();
     let first_uses: TokenStream2 = first_uses.parse().unwrap();
 
-    let VarargConfig { macro_name, prefix } = attrs_parse(attrs, name.clone().to_token_stream());
+    let VarargConfig { macro_name, prefix } = attrs_parse(attrs, name.to_token_stream());
 
     let result = quote! {
         #func
