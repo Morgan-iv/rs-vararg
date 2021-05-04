@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: rust-rustfmt-check
+      uses: mbrobbel/rustfmt-check@0.3.0
     - name: Build
       run: cargo build --verbose
     - name: Clippy
