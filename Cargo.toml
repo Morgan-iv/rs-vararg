@@ -8,6 +8,7 @@ keywords = ["vararg", "variadic", "macro", "proc-macro", "attribute"]
 categories = ["development-tools"]
 description = "vararg macro for creating variadic functions"
 repository = "https://github.com/Morgan-iv/rs-vararg"
+exclude = [".github/*"]
 
 [dependencies]
 syn = { version = "1", features = ["full"] }
