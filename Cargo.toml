@@ -3,8 +3,11 @@ name = "vararg"
 version = "0.1.0"
 authors = ["Alexey Ivushkin <ivushkinalex@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT OR Apache-2.0"
+keywords = ["vararg", "variadic", "macro", "proc-macro", "attribute"]
+categories = ["development-tools"]
+description = "vararg macro for creating variadic functions"
+repository = "https://github.com/Morgan-iv/rs-vararg"
 
 [dependencies]
 syn = { version = "1", features = ["full"] }
