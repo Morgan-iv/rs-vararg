@@ -1,5 +1,7 @@
 # Vararg
-![vararg tests status](https://github.com/Morgan-iv/rs-vararg/actions/workflows/rust.yml/badge.svg)
+[![vararg tests status](https://github.com/Morgan-iv/rs-vararg/actions/workflows/rust.yml/badge.svg)](https://github.com/Morgan-iv/rs-vararg/actions/)
+[![Docs.rs link](https://docs.rs/vararg/badge.svg)](https://docs.rs/vararg/)
+[![Crates.io link](https://img.shields.io/crates/v/vararg.svg)](https://crates.io/crates/vararg/)
 
 This crate provides `vararg` proc-macro, that can be applied to any
 function which last arg is `Vec`, array or reference to slice, turning
